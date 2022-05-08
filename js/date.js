@@ -1,22 +1,22 @@
-// current date
-var mydate = new Date()
-var year = mydate.getYear()
+// determining date
+let mydate = new Date();
+let year = mydate.getYear();
 
-if (year < 1000) year += 1900
+if (year < 1000) year += 1900;
 
-var day = mydate.getDay()
-var month = mydate.getMonth()
-var daym = mydate.getDate()
-var dayarray = new Array(
+let day = mydate.getDay();
+let month = mydate.getMonth();
+let daym = mydate.getDate();
+let dayarray = new Array(
   "Sunday", "Monday", "Tuesday", "Wednesday",
   "Thursday", "Friday", "Saturday"
-)
-var montharray = new Array(
+);
+let montharray = new Array(
   "January", "February", "March", "April", "May", "June", "July",
   "August", "September", "October", "November", "December"
-)
+);
 
 document.write(
   dayarray[day] + ", " + montharray[month] + " ", + daym + ", "
   + year
-)
+);

@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
+  color: #122620;
+  background-color: #D6AD60;
+  padding: 10px;
+}
+
+/* Header/Blog Title */
+header {
+  clear: left;
+  width: 100%;
+  margin: 1em;
+  font-size: large;
+  padding: 30px;
+  text-align: center;
+  color: #eee8d5;
+  background: #073642;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+main {
+  color: #073642;
+  background-color: #eee8d5;
+  margin-: 1em;
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+aside {
+  margin: 1em;
+  font-size: smaller;
+  float: left;
+  width: 27%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+article {
+  background-color: #eee8d5;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  font-size: xx-small;
+  padding: 20px;
+  text-align: center;
+  color: #073642;
+  background: #eeeeee;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  main, aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* a {
+  color: #b58900;
+} */
+
+/* a:visited {
+  color: #cb4b16;
+} */
+
+/* a:hover {
+  color: #cb4b16;
+} */
+
+.title {
+	margin-bottom: 10px;
+	text-align: center;
+	width: 210px;
+	/* color: green;
+	border: solid black 2px; */
+}
+
+input[type="button"] {
+	font-size: 100%;
+	width: 100%;
+	/* background-color: #b58900;
+	color: black;
+	border: solid black 2px; */
+}
+
+input[type="text"] {
+	font-size: 100%;
+	text-align: right;
+	width: 100%;
+	/* background-color: white;
+	border: solid black 2px; */
+}
+
+/* blockquote {} */
