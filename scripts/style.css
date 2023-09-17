@@ -92,7 +92,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: 'Latin Modern Mono', monospace, 'Courier New';
+  font-family: 'Latin Modern Mono', monospace, Courier;
   font-size: 1em;
 }
 
@@ -209,12 +209,12 @@ table {
 }
 
 html {
-  font-family: 'Latin Modern Roman', serif;
+  font-family: 'Latin Modern Roman', 'Latin Modern Sans', Times, serif;
 }
 
 pre,
 code {
-  font-family: 'Latin Modern Mono', monospace;
+  font-family: 'Latin Modern Mono', monospace, Courier;
 }
 
 h1,
@@ -223,7 +223,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Latin Modern Roman', Garamond, serif;
+  font-family: 'Latin Modern Roman', 'Latin Modern Sans', Garamond, Times, serif;
   font-weight: 700;
 }
 
@@ -266,7 +266,7 @@ nav a:hover {
 }
 
 body {
-  font-family: 'Latin Modern Roman', 'Garamond', 'Times New Roman', serif;
+  font-family: 'Latin Modern Roman', 'Latin Modern Sans', 'Garamond', Times, serif;
   background-color: #002b36;
   margin: 0 auto;
   border: 1pt solid #586e75;
