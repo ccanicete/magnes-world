@@ -1,8 +1,8 @@
-# Impression
+# Magne's World
 
-v1.1.0
+v1.1.1
 
-A static landing webpage serving as a default website at <https://ccanicete.github.io/Impression/>
+A static landing webpage serving as a default website at <https://ccanicete.github.io/magnes-world/>
 
 ## Other webapps/sites
 
@@ -12,4 +12,4 @@ A static landing webpage serving as a default website at <https://ccanicete.gith
 
 2. <https://pycharlie.anvil.app/>
 
-   A basic calculator using *Python*.
+   A basic *Python anvil.app*
